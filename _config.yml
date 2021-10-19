@@ -9,7 +9,7 @@ baseurl:
 # Title of the Site
 title: Neural Disparity Refinement for Arbitrary Resolution Stereo
 # Description of the Site
-description: Filippo Aleotti*, Fabio Tosi*, Pierluigi Zama Ramirez* <br> Matteo Poggi, Samuele Salti, Stefano Mattoccia, Luigi Di Stefano <br> <i> *Equal Contribution </i> <br> <br> University of Bologna <br> <br> We gratefully acknowledge the funding support of Huawei Technologies Oy (Finland).
+description: Filippo Aleotti*, Fabio Tosi*, Pierluigi Zama Ramirez* <br> Matteo Poggi, Samuele Salti, Stefano Mattoccia, Luigi Di Stefano <br> <i> *Equal Contribution </i> <br> <br> University of Bologna <br> <br> Oral at 3DV 2021 <br> <br> We gratefully acknowledge the funding support of Huawei Technologies Oy (Finland). 
 # URL of Image of the Site
 site-image:
 # Keywords of the Site
