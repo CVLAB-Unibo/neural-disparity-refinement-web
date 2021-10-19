@@ -1,0 +1,24 @@
+<section class="hero  has-text-centered  has-background-white-ter" id="about">
+    <div class="hero-body">
+      <div class="container">
+
+        <h2 align="centered" class="title">METHOD OVERVIEW</h2>
+        <br>
+        <br>
+        <img src="assets/network.png" width="1200" height="600" />
+        <br>
+        <br>
+        <p>
+          Neural Disparity Refinement, architecture overview.
+          Given a rectified stereo pair captured using either a balanced or unbalanced (red dotted lines) stereo setting, 
+          our goal is to estimate a refined disparity map at any arbitrary spatial resolution starting 
+          from noisy disparities pre-computed by any existing stereo blackbox. 
+          We first extract deep high-dimensional features using two separate convolutional branches that are combined together by a decoder. 
+          Then, at each continuous 2D location in the image domain, we interpolate features across the levels of the decoder in order to feed them into a disparity 
+          estimation module realized through two MLPs which predict an integer disparity value and a sub-pixel offset, respectively.
+        </p>
+        <br>
+        <br>
+      </div>
+    </div>
+  </section>

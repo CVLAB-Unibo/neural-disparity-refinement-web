@@ -1,0 +1,66 @@
+<style>
+model-viewer {
+  width: 1200px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+    .responsive {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+</style>
+
+<section class="hero has-text-centered " id="about">
+    <div class="hero-body">
+      <div class="container">
+          <h2 align="centered" class="title">RESULTS</h2>
+          <br>
+          <br>
+          <img src="assets/sceneflow.png" class="responsive" loop=infinite  width="1200" height="600" />
+          <p>
+            Results on the SceneFlow testing set. From left to right, the RGB input image, the noisy input disparity map computed by SGM (rows 1-2),
+            AD-Census (rows 3-4), C-CNN (rows 5-6) and the corresponding refined disparity estimated by our network.
+          </p>
+          <br>
+          <br>
+          <img src="assets/middlebury.png" class="responsive" width="1200" height="600" />
+          <p>
+            Generalization results on Middlebury 2014 of our network (pre-trained on SceneFlow). 
+            From left to right, the RGB input image, the noisy input disparity map computed by SGM and the refined disparity estimated by our network.
+          </p>
+          <br>
+          <br>
+          <img src="assets/kitti.png" class="responsive" width="1200" height="600" />
+          <p>
+            Generalization results on KITTI 2015 of our network (pre-trained on SceneFlow). 
+            From left to right, the RGB input image, the noisy input disparity map computed by SGM and the refined disparity estimated by our network.
+          </p>
+          <br>
+          <br>
+          <img src="assets/eth3d.png" loop=infinite class="responsive" width="1200" height="600" />
+          <p>
+            Generalization results on ETH3D of our network (pre-trained on SceneFlow). 
+            From left to right, the RGB input image, the noisy input disparity map computed by SGM and the refined disparity estimated by our network.
+          </p>
+          <br>
+          <br>
+          <img src="assets/unbalanced.png" loop=infinite class="responsive" width="1200" height="600" />
+          <p>
+            Our network is able to handle also inputs with different resolutions. The top row depicts the input image, at 3840 × 2160
+            and the disparity maps, D, computed by SGM when the right image, is 480 × 270 and 320 × 180 (k = 8 and 12). The bottom
+            row shows ground-truth and estimated disparity at 3840×2160.
+          </p>
+          <br>
+          <br>
+          <img src="assets/upsampling.png" loop=infinite class="responsive" width="1200" height="600" />
+          <p>
+            Thanks to our continuous formulation we can estimate a disparity map at an arbitrary resolution. 
+            In the figure we see the comparison against a standard Nearest Neighbor interpolation.
+          </p>
+          <br>
+          <br>
+      </div>
+    </div>
+  </section>
