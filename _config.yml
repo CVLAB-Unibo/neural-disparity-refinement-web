@@ -2,9 +2,9 @@
 markdown: kramdown
 
 # URL of the Site
-url: 'https://cvlab-unibo.github.io/neural-disparity-refinement-web'
+url: 'https://cvlab-unibo.github.io'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 'https://cvlab-unibo.github.io'
+baseurl: 'neural-disparity-refinement-web'
 
 # Title of the Site
 title: Neural Disparity Refinement for Arbitrary Resolution Stereo
